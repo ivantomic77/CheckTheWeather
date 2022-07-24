@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+body {
+    background-color: #414c6b;
+}
+
+.map {
+    width: 100vw;
+    height: 30vh;
+    object-fit: cover;
+    filter: blur(2px);
+}
+
+.appname {
+    position: absolute;
+    transform: translate(40vw,-18vh);
+    color: white;
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.center {
+    transform: translate(38vw,10vh);
+    max-width: 50vw;
+}
+
+.submit {
+    background: #BDFFB2;
+    color: black;
+    border-style: outset;
+    height: 30px;
+    width: 100px;
+    font: bold15px arial,sans-serif;
+    text-shadow: none;
+}
+
+.submit:active {
+    background: #8CCA82;
+}
+
+.inputValue {
+    border-style: outset;
+    height: 30px;
+    width: 200px;
+    font: bold15px arial,sans-serif;
+    text-shadow: none;
+    margin-bottom: 50px;
+}
+
+.display {
+    display: flex;
+    gap: 15px;
+}
+
+.name {
+    margin-bottom: 5px;
+    color: white;
+}
+
+.desc {
+    color: white;
+}
+
+.temp {
+    color: white;
+}
