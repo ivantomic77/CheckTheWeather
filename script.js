@@ -7,7 +7,7 @@ const info = document.querySelectorAll('.text');
 const infoImg = document.querySelector('.infoImg');
 
 button.addEventListener('click', function () {
-    fetch(`https://api.openweathermap.org/data/2.5/weather?q=${inputValue.value}&appid=9d2b91e2053beb716b74b90f1b581b6f`)
+    fetch(`https://api.openweathermap.org/data/2.5/weather?q=${inputValue.value}&appid=API_KEY`)
         .then(response => response.json())
         .then(data => {
             console.log(data);
